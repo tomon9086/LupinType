@@ -1,0 +1,35 @@
+/*@font-face {
+	font-family: 'dejima';
+	src: url(./dejima-mincho-r227.ttf);
+}
+@font-face {
+	font-family: 'mutsuki';
+	src: url(./Mutsuki.ttf);
+}*/
+@font-face {
+	font-family: 'ipa';
+	src: url(./ipaexm.ttf);
+}
+body {
+	margin: 0;
+	background-color: #000;
+	overflow: hidden;
+}
+.sousa {
+	color: #FFF;
+}
+.text {
+	border: 0;
+	margin: 0;
+	resize: none;
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	color: #FFF;
+	font-size: 40px;
+	font-family: ipa;
+	text-align: center;
+}
+.text:focus {
+	outline: 0;
+}
